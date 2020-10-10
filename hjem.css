@@ -1,0 +1,38 @@
+/*Linjen under informasjonen om pop-ups*/
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 20px;
+}
+
+/*Knappen for bestill billett*/
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.tour-row:last-child {
+    border: none;
+}
+
+/*Info om tour-dates*/
+.tour-date {
+    color: #555;
+    width: 11%;
+    font-weight: bold;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+
