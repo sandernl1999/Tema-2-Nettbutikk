@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  <!--Skjema for Påmelding og få billett-->
+    <div class="container">
+        <form action="../HTML/bekreftelse.html">
+      
+          <label for="fname">Fornavn</label>
+          <input type="text" id="fname" name="firstname" placeholder="Ditt navn...">
+      
+          <label for="lname">Etternavn</label>
+          <input type="text" id="lname" name="lastname" placeholder="Ditt etternavn...">
+      
+          <label for="country">Kjønn</label>
+          <select id="country" name="country">
+            <option value="australia">Jente</option>
+            <option value="canada">Gutt</option>
+            <option value="usa">Annet</option>
+          </select>
+      
+          <label for="subject">Kontaktinformasjon</label>
+          <textarea id="subject" name="subject" placeholder="Telefon eller E-post..." style="height:200px"></textarea>
+      
+          <input type="submit" value="Få din billett">
+      
+        </form>
+      </div>
+
+ <!--CSS in html-->     
+<style>
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 520px; /* Full width */
+    display: flex;
+    padding: 14px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4ba527;
+    color: white;
+    width: 150px;
+    padding: 8px 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  label{
+    background-color: rgb(0, 79, 139);
+    color: white;
+    padding: 4px 8px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  label:hover{
+    background-color: #3492c9;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #52bb29;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+   border-radius: 5px;
+   background-image: url(../Images/oslo.jpg);
+   background-size: cover;
+   height: 700px;
+   padding: -10px;
+   padding-left: 468px;
+   padding-top: 100px;
+    
+  }
+
+</style>
+
+
+</body>
+</html>
