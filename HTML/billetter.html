@@ -10,14 +10,17 @@
   <!--Skjema for Påmelding og få billett-->
     <div class="container">
         <form action="../HTML/bekreftelse.html">
-      
+            <h1> * = Obligatorisk</h1>
           <label for="fname">Fornavn</label>
+          <label class="stjerner" for="stjerne">*</label>
           <input type="text" id="fname" name="firstname" placeholder="Ditt navn...">
       
           <label for="lname">Etternavn</label>
+          <label class="stjerner" for="stjerne">*</label>
           <input type="text" id="lname" name="lastname" placeholder="Ditt etternavn...">
       
           <label for="country">Kjønn</label>
+          <label class="stjerner" for="stjerne">*</label>
           <select id="country" name="country">
             <option value="australia">Jente</option>
             <option value="canada">Gutt</option>
@@ -25,6 +28,7 @@
           </select>
       
           <label for="subject">Kontaktinformasjon</label>
+          <label class="stjerner" for="stjerne">*</label>
           <textarea id="subject" name="subject" placeholder="Telefon eller E-post..." style="height:200px"></textarea>
       
           <input type="submit" value="Få din billett">
@@ -37,7 +41,7 @@
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 520px; /* Full width */
+    width: 26rem; /* Full width */
     display: flex;
     padding: 14px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
@@ -49,12 +53,13 @@ input[type=text], select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
+
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
     background-color: #4ba527;
     color: white;
-    width: 150px;
+    width: 9rem;
     padding: 8px 2px;
     font-size: 20px;
     font-family: sans-serif;
@@ -78,6 +83,15 @@ input[type=text], select, textarea {
   label:hover{
     background-color: #3492c9;
   }
+
+  .stjerner{
+    background-color: #e23333;
+  }
+
+  h1{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
@@ -87,14 +101,15 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .container {
    border-radius: 5px;
-   background-image: url(../Images/oslo.jpg);
+   background-image: url(../Images/tjuvholmen.jpg);
    background-size: cover;
    height: 700px;
    padding: -10px;
-   padding-left: 468px;
-   padding-top: 100px;
-    
+   padding-left: 2.2rem;
+   padding-top: 5rem;
+
   }
+
 
 </style>
 

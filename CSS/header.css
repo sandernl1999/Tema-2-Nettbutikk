@@ -3,9 +3,8 @@
 
 /*Oslo gateKunst Overskrift*/
 .band-name-large {
-    font-size: 5em;
-    padding-top: 1.69rem;
-    padding-bottom: 1.1rem;
+    font-size: 5rem;
+    padding-top: 0.3em;
     font-family: Fredoka One, cursive;
     color: rgb(0, 79, 139);
     transition: transform .2s;
@@ -14,9 +13,7 @@
 
 .band-name{
     text-align: center;
-    margin: 0;
-    font-size: 4em;
-    margin-top: 48px;
+    font-size: 3.6rem;
     font-weight: normal;
     color: rgb(0, 79, 139);
 }
@@ -35,14 +32,16 @@
     background-position: center;
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 73px;
+    height: 15em;
+    padding-bottom: 4.5625em;
 }
 
 /*(HJEM, BUTIKK, OM OSS) i header*/
 .main-nav {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: lighter;
+    padding: 0.5em;
     border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
 
@@ -53,5 +52,5 @@
 
 /*Hoveringen over (HJEM, BUTIKK, OM OSS)*/
 .nav a:hover {
-    background-color: rgba(255, 255, 255, .3)
+    background-color: rgba(255, 255, 255, 0.3);
 }

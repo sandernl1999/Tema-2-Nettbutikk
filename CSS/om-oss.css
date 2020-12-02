@@ -1,10 +1,11 @@
 /*Bilde-funksjonen av brødrene */
 .containerer{
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-right: 100px;
+    position: relative;
+    width: 18.75em;
+    height: 12.5em;
+    padding-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 /*Selve bilde av brødrene*/
@@ -12,7 +13,6 @@
     opacity: 1;
     display: block;
     position: absolute;
-    width: 100%;
     height: auto;
     border-radius: 5%;
     transition: .2s ease;
@@ -24,8 +24,8 @@
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top: 59%;
+    left: 52%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
@@ -45,30 +45,27 @@
     background-color: rgb(0, 79, 139);
     color: white;
     border-radius: 5%;
-    font-size: 16px;
-    padding: 16px 32px;
+    font-size: 1rem;
+    padding: 1em 1em;
   }
   
 
   /*Teksten om gutta i Oslo gateKunst*/
   h4{
     position: relative;
-    padding-left: 350px;
-    font-size: 17px;
+    padding-top: 1em;
+    font-size: 1rem;
     color:black;
-    width: 1000px;
     font-weight: 100;
     font-family: raleway;
 }
 
 h3{
     position: relative;
-    font-size: 17px;
+    font-size: 1rem;
     font-family: raleway;
     font-weight: 20;
     color: black;
-    width: 1000px;
     font-weight: 100;
-    padding-bottom: 60px;
-    padding-left: 350px;
+    padding-bottom: 3.75em;
 }
